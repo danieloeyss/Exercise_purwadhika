@@ -24,11 +24,11 @@ let hasilSoal3: number = angkaSoal3/10000 ;
 console.log(`${angkaSoal3} dalam bentuk kilometer adalah ${hasilSoal3} Km`);
 
 // Soal 4
-
+//curency
 
 // Soal 5
-
-
+const kataSoal5: string= "Hello World"
+let kataCari: string = "ello"
 
 // Soal 6
 
@@ -40,8 +40,29 @@ console.log(`${angkaSoal3} dalam bentuk kilometer adalah ${hasilSoal3} Km`);
 
 
 // Soal 9
+const number1Soal9 : number = 1;
+const number2Soal9 : number = 2;
+const number3Soal9 : number = 3;
+let c = Math.max(number1Soal9,number2Soal9,number3Soal9)
+let d = Math.min(number1Soal9,number2Soal9,number3Soal9)
+let e = number1Soal9 + number2Soal9 +number3Soal9 - c -d 
+console.log(`Angka terbesar ke terkecil ${c} , ${e} , ${d} `);
 
 // Soal 10 
-
+// let isString = true;
+// let isNumber = true;
+// let check = ;
+// if 
 
 // Soal 11
+const kataSoal11 : string = "An apple day keeps the doctors away"
+const kataKecil : string = kataSoal11.toLowerCase()
+let hasilCari11 = kataKecil.replaceAll('a','*');
+console.log(hasilCari11);
+
+
+// for (let i = kataSoal11.length; i>=0; i++){
+//     if(kataSoal11[i]===kataCari){
+//         hasilCari11 += kataSoal11[i].replace('*')
+//     }
+// }
